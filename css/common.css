@@ -435,3 +435,116 @@ nav {
 		line-height: 60px;
 	}
 }
+
+
+
+/* ============================== */
+
+h2 {
+	font-size: 2.5rem;
+	color: #394240;
+	font-weight: 300;
+	text-align:center;
+	margin-top: 70px;
+	margin-bottom: 40px;
+}
+.forwho	{
+	width: 100%;
+	background-color: #fff;
+	text-align:center;
+}
+.forwho>.container>.divider {
+	width: 385px;
+	height: 2px;
+	background-color: #eac1aa;
+	float: none;
+	margin:0 auto;
+}
+.forwho>.container>.description {
+	width: 920px;
+	color: #394240;
+	font-size: 1.1rem;
+	text-align:center;
+	margin: 50px auto;
+	float: none;
+}
+.forwho>.forwho__block {
+	width: 20%;
+	height: 18vw;
+}
+.forwho>.forwho__block>.icon {
+	width: 100%;
+	height: 55%;
+	text-align:center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.forwho>.forwho__block>.description {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-direction: column;
+	width: 100%;
+}
+.forwho>.forwho__block>.description>.title {
+	text-transform:uppercase;
+	font-size: 1rem;
+	color: #394240;
+	margin-bottom: 30px;
+}
+.forwho>.forwho__block>.description>.text {
+	font-size: 0.9rem;
+	color: #394240;
+	width: 220px;
+}
+.forwho>.forwho__block:nth-child(2) {
+	background-color: #efecea;
+}
+.forwho>.forwho__block:nth-child(3) {
+	background-color: #c294a2;
+}
+.forwho>.forwho__block:nth-child(3)>.description>.title {
+	color: #fff;
+}
+.forwho>.forwho__block:nth-child(3)>.description>.text {
+	color: #fff;
+}
+.forwho>.forwho__block:nth-child(4) {
+	background-color: #f8f8f8;
+}
+.forwho>.forwho__block:nth-child(5) {
+	background-color: #6e7d92;
+}
+.forwho>.forwho__block:nth-child(5)>.description>.title {
+	color: #fff;
+}
+.forwho>.forwho__block:nth-child(5)>.description>.text {
+	color: #fff;
+}
+.forwho>.forwho__block:nth-child(6) {
+	background-color: #efecea;
+}
+.forwho>.forwho__block:nth-child(7) {
+	background-color: #f8f8f8;
+}
+.forwho>.forwho__block:nth-child(8) {
+	background-color: #efecea;
+}
+.forwho>.forwho__block:nth-child(9) {
+	background-color: #eac1aa;
+}
+.forwho>.forwho__block:nth-child(9)>.description>.title {
+	color: #fff;
+}
+.forwho>.forwho__block:nth-child(9)>.description>.text {
+	color: #fff;
+}
+.forwho>.forwho__block:nth-child(10) {
+	background-color: #efecea;
+}
+.forwho>.forwho__block:nth-child(11) {
+	background-color: #f8f8f8;
+}
+
+
