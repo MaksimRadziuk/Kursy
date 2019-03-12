@@ -83,12 +83,20 @@ $(document).ready(function(){
 });
 
 $(window).on("load", function() {
-	$('.feedback_slider').slick({
-		dots: true,
-		arrows:true,
-	  infinite: true,
-	  speed: 500,
-	  slidesToShow: 1,
-	  slidesToScroll: 1
-	});
+	
+	var mySwiper = new Swiper ('.swiper-container', {
+      direction: 'horizontal',
+      loop: true,
+      spaceBetween: 100,
+      speed:2000,
+      autoplay:true,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      pagination: {
+	      el: '.swiper-pagination',
+	      clickable: true,
+	    }
+    });
 });
